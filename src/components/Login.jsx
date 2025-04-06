@@ -18,7 +18,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (username === "Jahongir" && password === "1606") {
+    if (username === "Ismoil" && password === "2009") {
       navigate("/dashboard");
       return;
     }

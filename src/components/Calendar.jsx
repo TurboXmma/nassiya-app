@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Calendar.css";
 import myImage15 from "../assets/back.svg";
@@ -21,7 +21,7 @@ const Calendar = () => {
         <button onClick={handleBack} className="back-button">
           <img src={myImage15} alt="back.svg" />
         </button>
-        <h1>Kalendar</h1>
+        <h1 className="calendar-title">Kalendar</h1>
         <div className="placeholder"></div>
       </div>
 
